@@ -1,0 +1,18 @@
+@import "../../node_modules/slick-carousel/slick/slick.scss";
+
+.slick-slider {
+  height: 100%;
+  .slick-list {
+    height:100%;
+    .slick-track {
+      height:100%;
+      cursor: url("../images/cursor.png"), auto;
+      .slick-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: url("../images/cursor.png"), auto;
+      }
+    }
+  }
+}
