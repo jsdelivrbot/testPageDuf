@@ -6112,13 +6112,13 @@ table {
   .slick-slider .slick-list {
     height: 100%; }
     .slick-slider .slick-list .slick-track {
-      height: 100%;
-      cursor: url("../images/cursor.png"), auto; }
+      height: 100%; }
       .slick-slider .slick-list .slick-track .slick-slide {
         display: flex;
         justify-content: center;
-        align-items: center;
-        cursor: url("../images/cursor.png"), auto; }
+        align-items: center; }
+        .slick-slider .slick-list .slick-track .slick-slide img {
+          cursor: url("../images/cursor.png"), auto; }
 
 body, html {
   height: 100%;
