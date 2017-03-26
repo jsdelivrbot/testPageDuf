@@ -1,0 +1,17 @@
+@import "../../node_modules/font-awesome/scss/font-awesome";
+
+@font-face {
+  font-family: 'GloberBold';
+  src: url('../fonts/Glober_Bold_Free.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Glober_Bold_Free.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/Glober_Bold_Free.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../fonts/Glober_Bold_Free.otf')  format('otf'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'GloberThin';
+  src: url('../fonts/Glober_Thin_Free.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Glober_Thin_Free.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/Glober_Thin_Free.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../fonts/Glober_Thin_Free.otf')  format('otf'); /* Legacy iOS */
+}

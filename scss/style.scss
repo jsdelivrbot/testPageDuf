@@ -1,13 +1,30 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "reset";
+@import "variables";
 @import "./components/slider";
+@import "./components/fonts";
+@import "./components/menu";
+
 body, html {
   height: 100%;
   width: 100%;
   overflow: hidden;
+
 }
 
 #root {
   height: 100%;
   width: 100%;
+  font-family: 'GloberThin', Arial, sans-serif;
+
+  > .row {
+    height: 100%;
+    padding-top: 20px;
+
+    @media (min-width: 992px) {
+      padding-top: 70px;
+      padding-bottom: 125px;
+    }
+
+  }
 }

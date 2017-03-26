@@ -1,0 +1,53 @@
+.menu-container {
+  display: flex;
+  justify-content: center;
+
+  > div {
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .menu-list {
+    margin: 0 auto;
+    position: relative;
+
+    a {
+      text-decoration: none;
+      color: $main-text
+    }
+  }
+}
+
+.menu-navicon {
+  position: absolute;
+  right: 0;
+  top: 8px;
+  z-index: 10;
+
+  img {
+    cursor: pointer;
+  }
+
+  @media (min-width: 992px) {
+    display: none;
+  }
+}
+
+.menu-typo-big {
+  font-size: 24pt;
+  margin-bottom: 55px;
+
+}
+
+.menu-typo-medium {
+  font-size: 16pt;
+  margin-bottom: 30px;
+}
+
+.menu-typo-small {
+  font-size: 12pt;
+  color: $gray-text;
+  position: absolute;
+  width: 180px;
+  bottom: 0;
+}
